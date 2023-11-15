@@ -1,0 +1,92 @@
+/* Full Page Styling */
+* {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+body {
+    color: rgb(62, 30, 30);
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+p {
+    position: relative;
+    top: 15px;
+}
+
+/* Navigation Styling */
+nav {
+    position: relative;
+    background-color: rgb(51, 86, 43);
+    height: 50px;
+    color: rgb(247, 171, 163);
+    border-bottom: 10px solid rgb(247, 171, 163);
+}
+
+li {
+    display: inline;
+    margin: 0 15px;
+    position: relative;
+    left: 450px;
+    top: 15px;
+}
+
+/* Hero Container Styling */
+.hero {
+    padding: 50px 0px;
+}
+
+.hero img {
+    width: 300px;
+}
+
+/* Contact Section Styling */
+.contact {
+    background-color: rgb(241, 190, 185);
+    margin: 0;
+    padding: 40px 0;
+    border-top: 3px solid salmon;
+}
+
+.form-container {
+    display: block;
+    border: 5px solid salmon;
+    border-radius: 24px;
+    width: 600px;
+    padding: 20px 0;
+}
+
+.form-field {
+    margin: 10px 0;
+}
+
+input {
+    width: 300px;
+}
+
+#send-button {
+    padding: 10px 45px;
+    background-color: rgb(56, 43, 43);
+    border: 2px solid rgb(123, 113, 113);
+    color: rgb(241, 190, 185);
+    font-weight: bolder;
+}
+
+/* Footer Styling */
+footer {
+    background-color: rgb(51, 86, 43);
+    height: 50px;
+    color: rgb(247, 171, 163);
+    margin: 0;
+    border-bottom: 5px solid rgb(62, 30, 30);
+}
