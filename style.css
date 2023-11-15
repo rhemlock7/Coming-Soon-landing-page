@@ -24,6 +24,11 @@ p {
     top: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(247, 171, 163);
+}
+
 /* Navigation Styling */
 nav {
     position: relative;
